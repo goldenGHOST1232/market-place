@@ -1,0 +1,123 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfcf9;
+  color: #333;
+}
+
+header {
+  background-color: #d6ac13;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  
+  margin: 20px;
+  border-radius: 15px;
+  padding: 10px;
+  border-style: outset;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.intro {
+  padding: 2rem;
+  text-align: center;
+  background: #fff7ed;
+}
+
+.intro-image {
+  width: 90%;
+  max-width: 600px;
+  border-radius: 15px;
+  margin-top: 1rem;
+}
+
+.produits {
+  background: #f1eee8;
+  padding: 2rem;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+ 
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 12px;
+  width: 200px;
+  transition: transform 0.3s ease;
+   margin-right: 15px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #6c4f3d;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+video {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 1rem;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.header-content h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+#logo img {
+  width: 150px;
+  height: 150px;
+  
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+  
+}
